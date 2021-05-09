@@ -4,6 +4,7 @@ public class Box {
     double height;
 
     // pass OBJECT to constructor
+    // you are basically creating a copy of another object ob
     Box (Box ob) {
         this.width = ob.width;
         this.length = ob.length;
