@@ -8,5 +8,12 @@ public class TestDriver {
         System.out.println("t2.a = " + t2.a);
         t2 = t2.incrByTen();
         System.out.println("t2.a after a second increase = " + t2.a);
+
+        /*
+        As you can see, each time incrByTen() is invoked, a new object
+        is created, and a reference to it is returned to the calling routine.
+
+        All objects are dynamically allocated using "new"
+         */
     }
 }
